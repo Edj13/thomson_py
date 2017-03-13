@@ -2,7 +2,7 @@
 The classical Thomson problem is to find the lowest energy (ground) state of N electrons on the surface of a sphere.
 https://en.wikipedia.org/wiki/Thomson_problem
 
-The number of metastable/competing ground states grows exponentially with N.  This means for even modest N=200, advanced optimization techniques are required
-to determine the ground state.
+The number of competing minima grows exponentially with N.  This means for even modest N (~100), advanced optimization techniques are required
+to determine the global minimum.  Solving this problem is of theoretical interest, but also has practical application to viral capsid and colloidal self assembly problems.
 
-This small python program generates a random configuration, then uses the basin hopping algorithm to find the global minimum.
+This code extends the Thomson problem to consider points with different charges.  The program random configurations, then uses the basin hopping algorithm to find the global minimum.
