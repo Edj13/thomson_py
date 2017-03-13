@@ -5,4 +5,4 @@ https://en.wikipedia.org/wiki/Thomson_problem
 The number of competing minima grows exponentially with N.  This means for even modest N (~100), advanced optimization techniques are required
 to determine the global minimum.  Solving this problem is of theoretical interest, but also has practical application to viral capsid and colloidal self assembly problems.
 
-This code extends the Thomson problem to consider points with different charges.  The program random configurations, then uses the basin hopping algorithm to find the global minimum.
+This code extends the Thomson problem to consider points with different charges (q >= 1).  The program random configurations, then uses the basin hopping algorithm to find the global minimum.
